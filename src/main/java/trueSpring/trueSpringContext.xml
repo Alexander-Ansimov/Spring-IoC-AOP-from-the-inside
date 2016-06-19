@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="trueSpring.ShareSpeerQuoter" name="shareSpeerQuoter">
+        <property name="message" value="hello shake!"></property>
+    </bean>
+
+    <bean class="trueSpring.TerminatorQuoter" name="terminatorQuoter">
+       <!-- <property name="messages">
+            <List value-type="java.lang.String">
+                <value>asdf</value>
+                <value>ghjkjhgk</value>
+                <value>wtr rty rty wy rew</value>
+            </List>
+        </property>-->
+    </bean>
+
+</beans>
